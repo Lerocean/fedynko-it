@@ -10,12 +10,6 @@ public class Matrix {
         this.bSize = matrix[0].length;
     }
 
-    public Matrix(int rows, int columns) {
-        this.matrix = new double[rows][columns];
-        this.aSize = rows;
-        this.bSize = columns;
-    }
-
     public Matrix add(Matrix other) {
         if (this.aSize != other.aSize || this.bSize != other.bSize) {
             throw new IllegalArgumentException("Cannot add matrices with different dimensions");
