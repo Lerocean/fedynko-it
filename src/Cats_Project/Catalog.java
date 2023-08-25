@@ -1,18 +1,18 @@
-package GroupProjectToys;
+package Cats_Project;
 
-import java.util.ArrayList;
-
-public class CatalogToys {
+import  java.util.ArrayList;
+public class Catalog {
     private int id;
     private String name;
     private ArrayList<Toy> toys;
 
-    public CatalogToys(int id, String name, ArrayList<Toy> toys) {
+    public Catalog(int id, String name, ArrayList <Toy> toys) {
         this.id = id;
         this.name = name;
         this.toys = toys;
     }
-    public CatalogToys() {
+
+    public Catalog() {
     }
 
     public int getId() {

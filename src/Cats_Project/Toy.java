@@ -1,4 +1,5 @@
-package GroupProjectToys;
+package Cats_Project;
+
 
 public class Toy {
     private int id;
